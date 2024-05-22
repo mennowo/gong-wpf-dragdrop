@@ -1,10 +1,9 @@
-﻿namespace GongSolutions.Wpf.DragDrop
+﻿namespace GongSolutions.Wpf.DragDrop;
+
+public enum EventType
 {
-    public enum EventType
-    {
-        Auto,
-        Tunneled,
-        Bubbled,
-        TunneledBubbled
-    }
+    Auto,
+    Tunneled,
+    Bubbled,
+    TunneledBubbled
 }
